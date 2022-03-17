@@ -21,8 +21,6 @@ public class Main {
                 7: Project management
                  """ + ANSI_RESET);
 
-
-
         System.out.println(ANSI_RED + """
                 Weaknesses
                 1: Not much coding experience
