@@ -1,4 +1,6 @@
-public class Main {
+package SWOT;
+
+public class SWOT {
 
     public static final String ANSI_RESET = "\u001B[0m";
 
@@ -9,7 +11,7 @@ public class Main {
     public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
 
     public static void main(String[] args) {
-        System.out.println(ANSI_CYAN_BACKGROUND + "SWOT ANALYSIS" + ANSI_RESET);
+        System.out.println(ANSI_CYAN_BACKGROUND + "SWOT.SWOT ANALYSIS" + ANSI_RESET);
         System.out.println(ANSI_BLUE + """    
                 \nSTRENGTHS
                 1: Product development
