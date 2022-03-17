@@ -26,9 +26,17 @@ public class Main {
                 1: Not much coding experience
                 2: Impatient
                 3: Small group
-                4: Very specialised group, 
+                4: Very specialised group,
                 because we all have same function (to write code)
                 5: We are students
+                """ + ANSI_RESET);
+
+        System.out.println(ANSI_YELLOW + """
+                THREATS
+                1: Sickness
+                2: Group conflicts
+                3: Deadlines (stress)
+                4: Bad planning and coordination
                 """ + ANSI_RESET);
     }
 }
