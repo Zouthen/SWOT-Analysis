@@ -12,13 +12,13 @@ public class Main {
         System.out.println(ANSI_CYAN_BACKGROUND + "SWOT ANALYSIS" + ANSI_RESET);
         System.out.println(ANSI_BLUE + """    
                 STRENGTHS:
-                1: Produktudvikling
-                2: Kundeservice
-                3: Koordinering & analyse
-                4: Database SQL
-                5: Spil erfaring
-                6: Markedsføring
-                7: Studerenes udviklende erfaring og viden
+                1: Product development
+                2: Customer service
+                3: Coordinating and analysis
+                4: Database and SQL
+                5: Gaming experience
+                6: Marketing
+                7: Project management
                  """ + ANSI_RESET);
     }
 
