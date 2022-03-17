@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(ANSI_CYAN_BACKGROUND + "SWOT ANALYSIS" + ANSI_RESET);
         System.out.println(ANSI_BLUE + """    
-                STRENGTHS:
+                STRENGTHS
                 1: Product development
                 2: Customer service
                 3: Coordinating and analysis
@@ -22,13 +22,21 @@ public class Main {
                  """ + ANSI_RESET);
 
         System.out.println(ANSI_RED + """
-                Weaknesses
+                WEAKNESSES
                 1: Not much coding experience
                 2: Impatient
                 3: Small group
-                4: Very specialised group,
+                4: Very specialised group, 
                 because we all have same function (to write code)
                 5: We are students
+                """ + ANSI_RESET);
+
+        System.out.println(ANSI_GREEN + """
+                OPPORTUNITIES
+                1: Increase our coding experience
+                2: Expand network
+                3: Expand our work portfolio
+                4: Land internship
                 """ + ANSI_RESET);
 
         System.out.println(ANSI_YELLOW + """
